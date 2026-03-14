@@ -1,4 +1,0 @@
-warehouse_id, lat, lon, food_units, water_units, medical_units
-W1, 15.55, 32.53, 500, 300, 200
-W2, 15.10, 32.90, 400, 250, 150
-W3, 15.80, 33.10, 600, 400, 300
