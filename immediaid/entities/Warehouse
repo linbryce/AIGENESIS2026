@@ -1,0 +1,35 @@
+{
+  "name": "Warehouse",
+  "type": "object",
+  "properties": {
+    "warehouse_id": {
+      "type": "string",
+      "description": "Unique warehouse identifier"
+    },
+    "lat": {
+      "type": "number",
+      "description": "Latitude"
+    },
+    "lon": {
+      "type": "number",
+      "description": "Longitude"
+    },
+    "food_units": {
+      "type": "number",
+      "description": "Available food units"
+    },
+    "water_units": {
+      "type": "number",
+      "description": "Available water units"
+    },
+    "medical_units": {
+      "type": "number",
+      "description": "Available medical units"
+    }
+  },
+  "required": [
+    "warehouse_id",
+    "lat",
+    "lon"
+  ]
+}

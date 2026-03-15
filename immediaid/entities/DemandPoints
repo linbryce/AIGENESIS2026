@@ -1,0 +1,48 @@
+{
+  "name": "DemandPoint",
+  "type": "object",
+  "properties": {
+    "location_id": {
+      "type": "string",
+      "description": "Unique location identifier"
+    },
+    "name": {
+      "type": "string",
+      "description": "Location name"
+    },
+    "lat": {
+      "type": "number",
+      "description": "Latitude"
+    },
+    "lon": {
+      "type": "number",
+      "description": "Longitude"
+    },
+    "population": {
+      "type": "number",
+      "description": "Population at location"
+    },
+    "food_needed": {
+      "type": "number",
+      "description": "Food units needed"
+    },
+    "water_needed": {
+      "type": "number",
+      "description": "Water units needed"
+    },
+    "medical_needed": {
+      "type": "number",
+      "description": "Medical units needed"
+    },
+    "priority": {
+      "type": "number",
+      "description": "Priority level 1-5"
+    }
+  },
+  "required": [
+    "location_id",
+    "name",
+    "lat",
+    "lon"
+  ]
+}
