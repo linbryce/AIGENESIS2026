@@ -1,9 +1,9 @@
 # AIGENESIS2026
 GenAI Genesis Repository
 
-Immediaid
+ImmediAID
 
-Description: Immediaid is an AI information tracker designed to augment humanitarian logistics and support operational teams during crisis reponses. It uses optimization algorithms and presents data in a clear manner, simplifying complex data sets and creating operational flows for logistics teams.
+Description: ImmediAID is an AI information tracker designed to augment humanitarian logistics and support operational teams during crisis reponses. It uses optimization algorithms and presents data in a clear manner, simplifying complex data sets and creating operational flows for logistics teams.
 
 Set-up: There is no downloads needed to set up this project. The user interface and all functionaliites can be accessed at https://immediaid.base44.app
 
