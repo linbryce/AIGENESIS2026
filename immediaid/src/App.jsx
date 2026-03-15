@@ -9,6 +9,7 @@ import Layout from './components/Layout';
 import Visualization from './pages/Visualization';
 import Upload from './pages/Upload';
 import Profile from './pages/Profile';
+import Optimize from './pages/Optimize';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -36,6 +37,7 @@ const AuthenticatedApp = () => {
       <Route element={<Layout />}>
         <Route path="/Visualization" element={<Visualization />} />
         <Route path="/Upload" element={<Upload />} />
+        <Route path="/Optimize" element={<Optimize />} />
         <Route path="/Profile" element={<Profile />} />
       </Route>
       <Route path="*" element={<PageNotFound />} />

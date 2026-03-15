@@ -1,10 +1,11 @@
 import { Link, Outlet, useLocation } from 'react-router-dom';
-import { Map, Upload, User } from 'lucide-react';
+import { Map, Upload, User, Zap } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const tabs = [
   { path: '/Visualization', icon: Map, label: 'Map' },
   { path: '/Upload', icon: Upload, label: 'Upload' },
+  { path: '/Optimize', icon: Zap, label: 'AI' },
   { path: '/Profile', icon: User, label: 'Profile' },
 ];
 
